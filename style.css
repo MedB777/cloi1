@@ -1,12 +1,11 @@
 * {
 	padding: 0;
 	margin: 0;
-	font-family: 'Open Sans', sans-serif;
+	font-family: 'Work Sans', sans-serif;
 }
 
 header {
-	background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-		url('images/bg.jpg');
+	background-color: #fec016;
 	height: 100vh;
 	background-position: center;
 	background-size: cover;
@@ -15,16 +14,16 @@ header {
 .hero {
 	top: 50%;
 	left: 50%;
-	color: #fff;
+	color: #000;
 	position: absolute;
 	text-align: center;
 	transform: translate(-50%, -50%);
 }
 
 .hero h1 {
-	font-size: 150px;
+	font-size: 75px;
 	font-weight: 800;
-	letter-spacing: 15px;
+	letter-spacing: 12px;
 }
 
 .hero p {
