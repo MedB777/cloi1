@@ -28,9 +28,47 @@
 
 		<!--- Los Pollos Pop Under Code - Start -->
 		<script>
+			var offersList = [
+				{
+					vertical: 'Dating',
+					url: 'https://best-dating4u.com/?u=fy1nn7x&o=mbepd9x&t=cloi1'
+				},
+				{
+					vertical: 'Crypto',
+					url: 'https://profitisthere1.life/?u=fy1nn7x&o=mbmpd9x&t=cloi1'
+				},
+
+				{
+					vertical: 'Male Enhancement',
+					url: 'https://truemaleenchance1.life/?u=fy1nn7x&o=mbhpd9x&t=cloi1'
+				},
+				{
+					vertical: 'Adult Games',
+					url: 'https://the-adult-lovers1.com/?u=fy1nn7x&o=mbtpd9t&t=cloi1'
+				},
+				{
+					vertical: 'Gambling',
+					url: 'https://prizesforyouhere.life/?u=fy1nn7x&o=mbdpd91&t=cloi1'
+				},
+				{
+					vertical: 'Gay Dating',
+					url: 'https://newhotmen.com/?u=fy1nn7x&o=mbrpd91&t=cloi1'
+				},
+				{
+					vertical: 'Casual Dating',
+					url: 'https://new-dates.com/?u=fy1nn7x&o=mbbpd91&t=cloi1'
+				},
+				{
+					vertical: 'Cams',
+					url: 'https://bestyourcams.com/?u=fy1nn7x&o=mbppd91&t=cloi1'
+				}
+			]
+
+			getOffer = () => Math.floor(Math.random() * 8)
+			var thisOffer = offersList[getOffer()].url
 			var popunder = {
 				expire: 12,
-				url: 'https://profitisthere1.life/?u=fy1nn7x&o=mbmpd9x&t=CLOI1'
+				url: thisOffer
 			}
 		</script>
 		<script src="https://profitisthere1.life/js/popunder.js"></script>
@@ -38,32 +76,14 @@
 	</head>
 	<body>
 		<div class="cta">
-			<h1>OUR TOP OFFERS FOR YOU!</h1>
+			<h1>TODAY'S TOP OFFERS!</h1>
 		</div>
 		<div class="offers">
 			<div class="offer">
+				<a href="#">
+					<img src="images/img2.png" alt="CTA" />
+				</a>
 				<p>win an iphone right here and now!</p>
-				<a href="#">
-					<img src="images/img2.png" alt="CTA" />
-				</a>
-			</div>
-			<div class="offer">
-				<p>
-					today is your lucky day, we are offering two cars for the price of a
-					bike.
-				</p>
-				<a href="#">
-					<img src="images/img2.png" alt="CTA" />
-				</a>
-			</div>
-			<div class="offer">
-				<p>
-					click here and win a lifetime supply of apple juice for you apple
-					products that you can also win from us!
-				</p>
-				<a href="#">
-					<img src="images/img2.png" alt="CTA" />
-				</a>
 			</div>
 		</div>
 	</body>
