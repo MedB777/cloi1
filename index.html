@@ -90,25 +90,25 @@
 				{
 					title: 'Test Offer 1',
 					desc: 'Win an iPhone right here you dumbass! 1',
-					src: 'images/img2.png',
+					src: 'images/img.png',
 					url: '#1'
 				},
 				{
 					title: 'Test Offer 2',
 					desc: 'Win an iPhone right here you dumbass! 2',
-					src: 'images/img2.png',
+					src: 'images/img.png',
 					url: '#2'
 				},
 				{
 					title: 'Test Offer 3',
 					desc: 'Win an iPhone right here you dumbass! 3',
-					src: 'images/img2.png',
+					src: 'images/img.png',
 					url: '#3'
 				},
 				{
 					title: 'Test Offer 4',
 					desc: 'Win an iPhone right here you dumbass! 4',
-					src: 'images/img2.png',
+					src: 'images/img.png',
 					url: '#4'
 				}
 			]
@@ -116,10 +116,11 @@
 			var cpaOffer = cpaOffersList[getOffer(4)]
 			console.log(cpaOffer)
 			$(document).ready(function () {
+				$('#title').text(cpaOffer.title)
 				$('#desc').text(cpaOffer.desc)
-				$('#url').attr('href', cpaOffer.url)
-				$('#src').attr('src', cpaOffer.src)
-				$('#src').attr('alt', cpaOffer.alt)
+				$('.url').attr('href', cpaOffer.url)
+				$('#img').attr('src', cpaOffer.src)
+				$('#img').attr('alt', cpaOffer.title)
 			})
 		</script>
 		<!--- CPA Offers Code - End -->
@@ -129,18 +130,18 @@
 		<div class="content">
 			<div class="left">
 				<div class="content-left">
-					<h3>some CTA goes here, okay?</h3>
-					<p>
+					<h3 id="title"></h3>
+					<p id="desc">
 						Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nam magnam
 						laboriosam expedita suscipit voluptate quam eaque sint commodi modi
 						voluptates?
 					</p>
-					<a href="#" class="btn">CTA goes here</a>
+					<a href="" class="btn url">CTA goes here</a>
 				</div>
 			</div>
 			<div class="right">
 				<div class="content-right">
-					<a href="#"><img src="images/img.png" alt="" /></a>
+					<a href="#" class="url"><img src="" alt="" id="img" /></a>
 				</div>
 			</div>
 		</div>
