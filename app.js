@@ -9,8 +9,6 @@ OneSignal.push(function () {
 	})
 })
 
-// Los Pollos Smartlink
-
 // CPA Offers
 var cpaOffersList = [
 	{
@@ -40,7 +38,6 @@ var cpaOffersList = [
 ]
 
 var cpaOffer = cpaOffersList[getOffer(4)]
-console.log(cpaOffer)
 $(document).ready(function () {
 	$('#title').text(cpaOffer.title)
 	$('#desc').text(cpaOffer.desc)
