@@ -50,12 +50,6 @@ var offersList = [
 	}
 ]
 
-var thisOffer = offersList[getOffer(9)].url
-var popunder = {
-	expire: 12,
-	url: thisOffer
-}
-
 // CPA Offers
 var cpaOffersList = [
 	{

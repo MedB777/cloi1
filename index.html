@@ -29,6 +29,13 @@
 
 		<!--- JS Script -->
 		<script src="app.js"></script>
+		<script>
+			var thisOffer = offersList[getOffer(9)].url
+			var popunder = {
+				expire: 12,
+				url: thisOffer
+			}
+		</script>
 	</head>
 	<body>
 		<nav><a href="#">cloi<span>.</span>io</a></nav>
@@ -36,11 +43,7 @@
 			<div class="left">
 				<div class="content-left">
 					<h3 id="title"></h3>
-					<p id="desc">
-						Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nam magnam
-						laboriosam expedita suscipit voluptate quam eaque sint commodi modi
-						voluptates?
-					</p>
+					<p id="desc"></p>
 					<a href="" class="btn url">CTA goes here</a>
 				</div>
 			</div>
