@@ -13,7 +13,7 @@ OneSignal.push(function () {
 var offersList = [
 	{
 		vertical: 'Dating',
-		url: 'https://best-dating4u.com/?u=fy1nn7x&o=mbepd9x&t=cloi1'
+		url: 'https://datefirstfinder.com/?u=fy1nn7x&o=mbepd9x&t=cloi1'
 	},
 	{
 		vertical: 'Crypto',
