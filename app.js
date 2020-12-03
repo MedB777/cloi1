@@ -61,34 +61,55 @@ var cpaOffersList = [
 	{
 		title: 'Test Offer 1',
 		desc: 'Win an iPhone right here you dumbass! 1',
-		src: 'images/img.png',
-		url: '#1'
+		src: 'images/CPA1.png',
+		url: '#1',
+		cta: 'Click Here 1'
 	},
 	{
 		title: 'Test Offer 2',
 		desc: 'Win an iPhone right here you dumbass! 2',
-		src: 'images/img.png',
-		url: '#2'
+		src: 'images/CPA1.png',
+		url: '#2',
+		cta: 'Click Here 2'
 	},
 	{
 		title: 'Test Offer 3',
 		desc: 'Win an iPhone right here you dumbass! 3',
-		src: 'images/img.png',
-		url: '#3'
+		src: 'images/CPA1.png',
+		url: '#3',
+		cta: 'Click Here 3'
 	},
 	{
 		title: 'Test Offer 4',
 		desc: 'Win an iPhone right here you dumbass! 4',
-		src: 'images/img.png',
-		url: '#4'
+		src: 'images/CPA1.png',
+		url: '#4',
+		cta: 'Click Here 4'
+	},
+	{
+		title: 'Test Offer 5',
+		desc: 'Win an iPhone right here you dumbass! 5',
+		src: 'images/CPA1.png',
+		url: '#5',
+		cta: 'Click Here 5'
 	}
 ]
 
-var cpaOffer = cpaOffersList[getOffer(4)]
+var cpaOffer = cpaOffersList[getOffer(5)]
 $(document).ready(function () {
 	$('#title').text(cpaOffer.title)
 	$('#desc').text(cpaOffer.desc)
 	$('.url').attr('href', cpaOffer.url)
+	$('#cta').text(cpaOffer.cta)
+	$('#cta').attr('href', cpaOffer.url)
 	$('#img').attr('src', cpaOffer.src)
 	$('#img').attr('alt', cpaOffer.title)
 })
+
+var CBOffers = [
+	'https://69c1ekg4dw8xfxf2tbx16gvhf1.hop.clickbank.net/',
+	'https://a789afp69v9uan4axgu1dfon8s.hop.clickbank.net/',
+	'https://890cbeg-c08v9k7eqexoo99l7w.hop.clickbank.net/',
+	'https://f4522gn6ip3o8t03pm3hx9bp5t.hop.clickbank.net/',
+	'https://7f371lhzbwbm8magj65dpyug79.hop.clickbank.net/ '
+]
