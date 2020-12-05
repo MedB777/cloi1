@@ -63,7 +63,7 @@ var cpaOffersList = [
 		desc:
 			'Win an iPhone right here you dumbass! 1 - Win an iPhone right here you dumbass! 1 - Win an iPhone right here you dumbass! 1',
 		src: 'images/cta.jpg',
-		url: '#1',
+		url: 'https://lockercpa.pl/iframe/4a14fdb0-32b4-11eb-934f-6360661a5b3e?',
 		cta: 'Click Here 1'
 	},
 	{
@@ -71,7 +71,7 @@ var cpaOffersList = [
 		desc:
 			'Win an iPhone right here you dumbass! 1 - Win an iPhone right here you dumbass! 1 - Win an iPhone right here you dumbass! 2',
 		src: 'images/cta.jpg',
-		url: '#2',
+		url: 'https://lockercpa.pl/iframe/4a14fdb0-32b4-11eb-934f-6360661a5b3e?',
 		cta: 'Click Here 2'
 	},
 	{
@@ -79,7 +79,7 @@ var cpaOffersList = [
 		desc:
 			'Win an iPhone right here you dumbass! 1 - Win an iPhone right here you dumbass! 1 - Win an iPhone right here you dumbass! 3',
 		src: 'images/cta.jpg',
-		url: '#3',
+		url: 'https://lockercpa.pl/iframe/4a14fdb0-32b4-11eb-934f-6360661a5b3e?',
 		cta: 'Click Here 3'
 	},
 	{
@@ -87,7 +87,7 @@ var cpaOffersList = [
 		desc:
 			'Win an iPhone right here you dumbass! 1 - Win an iPhone right here you dumbass! 1 - Win an iPhone right here you dumbass! 4',
 		src: 'images/cta.jpg',
-		url: '#4',
+		url: 'https://lockercpa.pl/iframe/4a14fdb0-32b4-11eb-934f-6360661a5b3e?',
 		cta: 'Click Here 4'
 	},
 	{
@@ -95,7 +95,7 @@ var cpaOffersList = [
 		desc:
 			'Win an iPhone right here you dumbass! 1 - Win an iPhone right here you dumbass! 1 - Win an iPhone right here you dumbass! 5',
 		src: 'images/cta.jpg',
-		url: '#5',
+		url: 'https://lockercpa.pl/iframe/4a14fdb0-32b4-11eb-934f-6360661a5b3e?',
 		cta: 'Click Here 5'
 	}
 ]
